@@ -1,0 +1,2 @@
+﻿# Simple Notes Berbasis HTML, CSS dan JS
+
