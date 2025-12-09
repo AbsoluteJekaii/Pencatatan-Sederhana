@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencatatan Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pencatatan Sederhana</h1>
+
+    <div class="form-container">
+        <input type="text" id="judul" placeholder="Judul Catatan">
+        <textarea id="isi" placeholder="Isi Catatan"></textarea>
+        <button onclick="addNote()">Simpan Catatan</button>
+    </div>
+
+    <h2>Daftar Catatan</h2>
+    <div id="notesList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
